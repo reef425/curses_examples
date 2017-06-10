@@ -1,0 +1,63 @@
+    Здесь показаны три примера для работы с библиотекой curses в python 3.5
+
+    Приер 1: curses_example_1
+
+    Показывает способ отображения нажатого символа на экране.
+
+   |------------------------------|
+   |     Press any key:           |
+   |     Key:o des:111            |
+   |                              |
+   |     Press "q" for quit       |
+   |                              |
+   |------------------------------|
+
+
+   Приер 2: curses_example_2
+
+   Показывает пример циклического меню и способ отключения отображения курсора.
+
+   |-----------------------------------|
+   |      Menu:                        |
+   |  Brown bear                       |
+   |  Polar bear                       |
+   |  Asian black bear                 |
+   |  American black bear              |
+   |  Sun bear                         |
+   |  Sloth bear                       |
+   |  Spectacled bear                  |
+   |  Giant panda                      |
+   |                                   |
+   |                                   |
+   |                                   |
+   |                                   |
+   |  Press "enter" get description    |
+   |  Press "q" for quit               |
+   |                                   |
+   |-----------------------------------|
+
+   Приер 3: curses_example_3
+
+   Показывает примеры изменения атрибута текста(толщина, выделенность и т.д.),
+   способ не блокированного ввода при циклическом отображения.
+
+   |-------------------------------------------------|
+   | Text:                                           |
+   |     The spectacle before us was indeed sublime  |
+   |     Select text Attribute:                      |
+   |     A_BLINK  enter key: 1                       |
+   |     A_BOLD  enter key: 2                        |
+   |     A_DIM  enter key: 3                         |
+   |     A_REVERSE  enter key: 4                     |
+   |     A_STANDOUT  enter key: 5                    |
+   |     A_UNDERLINE  enter key: 6                   |
+   |     Press key:                                  |
+   |                                                 |
+   |     Press "q" for quit                          |
+   |     Press "l" get loop menu                     |
+   |-------------------------------------------------|
+
+
+   Ссылки на документацию:
+
+   Еще один пример от :
